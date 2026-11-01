@@ -1,0 +1,20 @@
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+!.env.template
+!.env-obs.example
+*.pem
+*.key
+.slack_secrets
+**/secrets.json
+
+# Python / tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+node_modules/
+cdk.out/
+.DS_Store

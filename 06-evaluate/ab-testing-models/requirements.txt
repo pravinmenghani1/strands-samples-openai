@@ -1,0 +1,18 @@
+# Strands Framework
+strands-agents[openai]>=1.6.0
+strands-agents-evals>=0.2.0
+
+# LLM Support
+litellm>=1.44.8,<=1.82.6
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.25.0
+ipython>=8.12.0
+
+# Type hints
+typing-extensions>=4.5.0

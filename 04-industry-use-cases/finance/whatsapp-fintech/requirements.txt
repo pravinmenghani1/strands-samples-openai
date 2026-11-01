@@ -1,0 +1,2 @@
+strands-agents[openai]
+urllib3>=2.6.0

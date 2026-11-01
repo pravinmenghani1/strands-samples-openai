@@ -1,0 +1,5 @@
+strands-agents[openai]
+strands-agents-evals
+urllib3>=2.6.0
+jupyter
+ipython

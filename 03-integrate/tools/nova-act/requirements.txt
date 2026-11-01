@@ -1,0 +1,4 @@
+strands-agents[openai]
+strands-agents-tools
+nova-act
+urllib3>=2.6.0

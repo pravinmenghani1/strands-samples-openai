@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+
+  streamlit:
+    image: streamlit/sl:1
+    build:
+      context: .
+    ports:
+      - "8080:8501"
+    entrypoint: streamlit run app.py
+    environment:
+      - OPENAI_API_KEY
+      - OPENAI_MODEL_ID
+    
+

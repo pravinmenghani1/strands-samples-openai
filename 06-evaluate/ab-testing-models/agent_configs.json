@@ -1,0 +1,22 @@
+{
+  "models": {
+    "nano": {
+      "model_id": "gpt-5-nano",
+      "name": "GPT-5 nano",
+      "description": "Fast, cost-effective, optimized for simple queries"
+    },
+    "gpt5": {
+      "model_id": "gpt-5",
+      "name": "GPT-5",
+      "description": "Strongest reasoning, highest cost"
+    },
+    "mini": {
+      "model_id": "gpt-5-mini",
+      "name": "GPT-5 mini",
+      "description": "Balanced cost and capability"
+    }
+  },
+  "dataset_path": "./data/tau-bench/tau_bench/envs/airline/tasks_singleturn.json",
+  "num_tools": 14,
+  "prompt_length": 6561
+}

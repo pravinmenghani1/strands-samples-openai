@@ -1,0 +1,5 @@
+httpx>=0.28.1
+nemoguardrails>=0.14.1
+strands-agents[openai]>=1.1.0
+urllib3>=2.6.0
+filelock>=3.20.1

@@ -1,0 +1,14 @@
+boto3
+botocore
+awscli
+opensearch-py
+requests-aws4auth
+pyyaml
+retrying
+strands-agents[openai]
+langfuse
+ragas==0.4.3
+langchain-openai<1.0
+langchain-core<1.0
+pandas
+datasets>=4.0.0
